@@ -1,0 +1,58 @@
+header {
+}
+.top-wrapper{
+	width: 1170px;
+    height: 52px;
+    display: grid;
+    grid-template-columns: 12% 33% 55%;
+    align-items: center;
+}
+.logo {
+	width: 137px; 
+	height: 52px;
+}
+.top-info {
+	width: 650px;
+	height: 36px; 
+	display: flex;
+	align-items: center;
+}
+.top-info .phone-number{
+	display: flex;
+}
+.top-info .phone-number span{
+	color: #B94040;
+}
+.top-info .us-dollar{
+	display: flex;
+}
+.top-info .actions{
+	display: flex;
+}
+.top-info .pnc-wrapper{
+	
+}
+.top-info .pnc-wrapper .profile{
+	
+}
+.top-info .pnc-wrapper .notiffications{
+	
+}
+.top-info .pnc-wrapper .shopp-cart{
+	
+}
+.arrow-down {
+	width: 9px;
+}
+
+.search-wrapper {
+	width: 1170px;
+	height: 54px;
+	background: black;
+}
+
+.navbar {
+	width: 1170px;
+	background: red;
+	height: 49px;
+}
