@@ -1,0 +1,19 @@
+.slider-wrapper {
+	width: 1180px;
+	height: 505px;
+}
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#homeCarousel .left span, #homeCarousel .right span {
+	width: 30px;
+    height: 65px;
+    background: #F1F1F1;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
