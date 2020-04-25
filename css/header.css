@@ -1,0 +1,139 @@
+header {
+	width: 100%;
+}
+.top-wrapper{
+	width: 1180px;
+    height: 52px;
+    display: grid;
+    grid-template-columns: 12% 33% 55%;
+    align-items: center;
+    margin: auto;
+}
+.logo {
+	width: 137px; 
+	height: 52px;
+}
+.top-info {
+	width: 650px;
+	height: 36px; 
+	display: grid;
+	grid-template-columns: 39% 15% 29% 37%;
+	align-items: center;
+}
+.top-info .phone-number{
+	display: flex;
+}
+.top-info .phone-number span{
+	color: #B94040;
+}
+.top-info .us-dollar,.top-info .actions{
+	display: flex;
+	align-items: center;
+}
+.top-info .actions i:hover + .actions-ul {
+	display: grid;
+}
+
+.actions-ul{
+	width: 195px;
+    height: 165px;
+    background: rebeccapurple;
+    border-radius: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: none; 
+    position: relative;
+    left: 73%;
+    top: -8em;
+}
+.actions-ul li:hover{
+	background: #F5F5F5;
+}
+.top-info .pnc-wrapper{
+	display: flex;
+}
+.top-info .pnc-wrapper .profile{
+	
+}
+.top-info .pnc-wrapper .notiffications{
+	
+}
+.top-info .pnc-wrapper .shopp-cart{
+	
+}
+.shopp-cart .shopp-number {
+	width: 24px;
+	height: 17px;
+	background: #B94040;
+	border-radius: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    top: -28px;
+    right: -52%;
+}
+.arrow-down {
+	width: 9px;
+}
+
+.search-wrapper {
+	width: 1170px;
+	height: 54px;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.search {
+	width: 30%;
+	display: flex;
+	border: solid 1px gray;
+	border-radius: 5px;
+}
+.search input{
+	width: 88%;
+	border: none;
+}
+.search-button {
+	width: 12%;
+	background: #2E2E2E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-button i{
+	color: white;
+	font-size: 2em;
+}
+.navigation {
+	width: 1170px;
+	height: 49px;
+	margin: auto;
+}
+.navigation ul{
+	display: flex;
+}
+.navigation ul li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.navigation ul li a{
+	color: white !important;
+}
+.navigation ul .burger{
+	width: 6%;
+	background: #2E2E2E;
+}
+.navigation ul .burger i{
+	color: white;
+	font-size: 2.2em;
+}
+.navigation .nav-item {
+	width: 16%;
+	height: 49px;
+	background: #2E2E2E;
+}
+.navigation .nav-item-active {
+	background: black;
+}
